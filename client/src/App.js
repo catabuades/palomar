@@ -1,23 +1,41 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import TopBar from './Components/TopBar/TopBar';
+import Login from './Components/Login/Login';
+import Registry from './Components/Registry/Registry';
+import NewPigeon from './Components/AdminPigeonDataSheet/AdminPigeonDataSheet';
+import AdminPigeonsList from './Components/AdminPigeonsList/AdminPigeonsList';
 
 function App() {
+
+  const data = {
+    name: 'Parent',
+    children: [{
+        name: 'Child One',
+    }, {
+        name: 'Child Two'
+    }]
+};
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <header>
+          <TopBar />
+        </header>
+        <main class="appMain">
+         <Routes>
+          <Route path="/login" element={<Login />} />
+          <Route path="/registry" element={<Registry />} />
+          <Route path="/dashboard" element={<AdminPigeonsList />} />
+          <Route path="/dashboard/new-pigeon" element={<NewPigeon />} />
+        </Routes>    
+        </main>
+        <footer>
+
+        </footer>
+      </Router>
     </div>
   );
 }
