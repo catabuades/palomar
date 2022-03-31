@@ -6,6 +6,7 @@ import Login from './Components/Login/Login';
 import Registry from './Components/Registry/Registry';
 import NewPigeon from './Components/AdminPigeonDataSheet/AdminPigeonDataSheet';
 import AdminPigeonsList from './Components/AdminPigeonsList/AdminPigeonsList';
+import Container from '@mui/material/Container';
 
 function App() {
 
@@ -24,13 +25,15 @@ function App() {
         <header>
           <TopBar />
         </header>
-        <main class="appMain">
-         <Routes>
-          <Route path="/login" element={<Login />} />
-          <Route path="/registry" element={<Registry />} />
-          <Route path="/dashboard" element={<AdminPigeonsList />} />
-          <Route path="/dashboard/new-pigeon" element={<NewPigeon />} />
-        </Routes>    
+        <main className="appMain">
+          <Container sx={{ p: 0 }} maxWidth="xl">
+            <Routes>
+              <Route path="/login" element={<Login />} />
+              <Route path="/registry" element={<Registry />} />
+              <Route path="/dashboard" element={<AdminPigeonsList />} />
+              <Route path="/dashboard/new-pigeon" element={<NewPigeon />} />
+            </Routes>
+          </Container>
         </main>
         <footer>
 

@@ -1,0 +1,135 @@
+[
+  {
+    "ring" : "B 06-3177703",
+    "name" : "Stamboom",
+    "year" : 2008,
+    "pedigree" : "",
+    "father_ring" : "B 05-2035547",
+    "mother_ring" : "H 01-2347760",
+    "gender" : "Male",
+    "color" : "Grey",
+    "race" : "Columba livia domestica",
+    "status" : "Competing",
+    "image" : "https://www.realfede.com/wp-content/uploads/2020/06/A-001-869x1024.jpg",
+    "comment" : "",
+    "competitions" : [
+      {
+        "year" : "2010",
+        "loose" : "Barcelona",
+        "competition_name": "Regional",
+        "modality" : "Speed",
+        "distance" : "300km",
+        "clasification" : "5 nat"
+      },
+      {
+        "year" : "2009",
+        "loose" : "Bordeaux",
+        "competition_name": "Regional",
+        "modality" : "Speed",
+        "distance" : "500km",
+        "clasification" : "273 nat"
+      },
+      {
+        "year" : "2009",
+        "loose" : "Libourne",
+        "competition_name": "Regional",
+        "modality" : "Speed",
+        "distance" : "400km",
+        "clasification" : "282 nat"
+      },
+      {
+        "year" : "2009",
+        "loose" : "Barcelona",
+        "competition_name": "Regional",
+        "modality" : "Speed",
+        "distance" : "300km",
+        "clasification" : "980 nat"
+      }
+    ],
+    "pairing" : [
+      {
+        "year" : "2011",
+        "couple_ring" : "B 07-2220743",
+        "comments" : ""
+      }
+    ]
+  },
+  {
+    "ring" : "B 05-2035547",
+    "name" : "Didier",
+    "year" : 2007,
+    "pedigree" : "",
+    "father_ring" : "B 03-2010142",
+    "mother_ring" : "B 03-2010056",
+    "gender" : "Male",
+    "color" : "Grey",
+    "race" : "Columba livia domestica",
+    "status" : "Competing",
+    "image" : "https://www.realfede.com/wp-content/uploads/2020/06/A-001-869x1024.jpg",
+    "comment" : "",
+    "competitions" : [
+      {
+        "year" : "2012",
+        "loose" : "Narbonne",
+        "competition_name": "Regional",
+        "modality" : "Speed",
+        "distance" : "250km",
+        "clasification" : "241 nat"
+      },
+      {
+        "year" : "2010",
+        "loose" : "Pau",
+        "competition_name": "Regional",
+        "modality" : "Speed",
+        "distance" : "150km",
+        "clasification" : "132 nat"
+      },
+      {
+        "year" : "2008",
+        "loose" : "Bourdeaux",
+        "competition_name": "Regional",
+        "modality" : "Speed",
+        "distance" : "180km",
+        "clasification" : "6 nat"
+      }
+    ],
+    "pairing" : [
+      {
+        "year" : "2008",
+        "couple_ring" : "H 01-2347760",
+        "comments" : ""
+      }
+    ]
+  },
+  {
+    "ring" : "H 01-2347760",
+    "name" : "Duivin",
+    "year" : 2006,
+    "pedigree" : "",
+    "father_ring" : "H 96-1222077",
+    "mother_ring" : "H 00-1010074",
+    "gender" : "Female",
+    "color" : "Grey",
+    "race" : "Columba livia domestica",
+    "status" : "Breeding",
+    "image" : "https://www.realfede.com/wp-content/uploads/2020/06/A-001-869x1024.jpg",
+    "comment" : "",
+    "competitions" : [
+      {
+        "year" : "2010",
+        "loose" : "Barcelona",
+        "competition_name": "Regional",
+        "modality" : "Speed",
+        "distance" : "300km",
+        "clasification" : "8 nat"
+      }
+    ],
+    "pairing" : [
+      {
+        "year" : "2008",
+        "couple_ring" : "B 05-2035547",
+        "comments" : ""
+      }
+    ]
+  }
+]

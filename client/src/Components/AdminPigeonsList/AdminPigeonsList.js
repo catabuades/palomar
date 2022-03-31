@@ -111,7 +111,7 @@ export default function ColumnTypesGrid() {
             <Button variant="contained">Add New Pigeon</Button>
           </Box>
         </Box>
-        <Paper sx={{ p: 2}}>
+        <Paper sx={{ p: 2 }}>
           <div style={{ display: 'flex', height: '100%' }}>
             <div style={{ flexGrow: 1, margin: '0 auto' }}>
               <DataGrid autoHeight {...initialRows} sx={{ backgroundColor: '#FFF' }} columns={columns} rows={rows} />
